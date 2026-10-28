@@ -1,0 +1,85 @@
+.loginBackground {
+  background-color: rgb(58, 58, 58);
+  height: 100vh;
+}
+
+.bg-posision {
+  padding: 50px 0;
+}
+
+.loginLayer {
+  width: 40%;
+  background-color: rgb(39, 38, 38);
+  color: white;
+  margin: auto;
+  border: none;
+  border-radius: 10px;
+  padding: 30px;
+  border: none;
+}
+
+.loginHeading {
+  font-weight: bold;
+  text-align: center;
+  padding: 12px;
+  line-height: 35px;
+}
+
+.loginInput {
+  display: flex;
+  flex-direction: column;
+  padding: 9px;
+  font-size: 18px;
+}
+
+.loginInput input {
+  padding: 12px;
+  background-color: rgb(225, 234, 237);
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.error-msg {
+  color: red;
+}
+.pwd-input {
+  position: relative;
+  width: 100%;
+}
+
+.pwd-icon {
+  position: absolute;
+  right: 510px;
+  top: 337px;
+  color: black;
+  cursor: pointer;
+}
+
+.btn-footer {
+  text-align: center;
+  padding: 20px;
+  gap: 5px;
+}
+
+.login-btn {
+  background-color: rgb(209, 28, 28);
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+}
+.login-btn-disabled {
+  background-color: rgb(110, 65, 65);
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+}
+.login-btn:hover {
+  background-color: black;
+  color: red;
+  border: 1px solid red;
+  cursor: pointer;
+}

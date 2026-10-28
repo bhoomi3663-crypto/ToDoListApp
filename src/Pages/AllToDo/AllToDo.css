@@ -1,0 +1,86 @@
+.waitdata-text {
+  text-align: center;
+  padding: 12px;
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(58, 58, 58);
+  color: white;
+}
+
+.list-container-light {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(216, 215, 215, 0.872);
+  color: black;
+}
+
+.list-text {
+  font-weight: 800px;
+  margin: auto;
+  padding: 35px 0 7px;
+}
+
+.list-line {
+  border: 2px solid rgb(248, 202, 16);
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 4px;
+  width: 70%;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 12px;
+  background-color: black;
+  color: white;
+  width: 70%;
+  margin: 5px auto;
+  border-radius: 14px;
+}
+
+.todo-list-light {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 12px;
+  background-color: white;
+  color: black;
+  width: 70%;
+  margin: 5px auto;
+  border-radius: 14px;
+}
+
+.list-task-text {
+  font-size: 20px;
+  padding: 7px;
+}
+
+.red-btn {
+  background-color: rgb(209, 28, 28);
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.yellow-btn {
+  background-color: rgb(248, 202, 16);
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+}

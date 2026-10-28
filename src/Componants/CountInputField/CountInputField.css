@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+}
+
+.count-btn {
+  background-color: black;
+  color: white;
+  width: 10%;
+  margin: auto;
+  padding: 12px;
+}

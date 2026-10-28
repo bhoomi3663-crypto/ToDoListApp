@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.web-heading {
+  padding: 50px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.card-layout {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer {
+  background-color: rgb(179, 177, 177);
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 20px;
+  width: 10%;
+  justify-content: space-around;
+  gap: 6px;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 15px;
+  margin: auto;
+  width: 15%;
+  font-weight: 700;
+  margin-top: 12px;
+}
+
+.footer-text {
+  text-align: center;
+  margin: 12px 0;
+}
