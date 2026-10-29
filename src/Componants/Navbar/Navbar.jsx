@@ -69,15 +69,22 @@ function Navbar() {
           >
             All Todos
           </NavLink>
-
           <NavLink
-            to="/useCallback"
+            to="/posts"
+            className={({ isActive }) =>
+              isActive ? "link-active" : "link-name"
+            }
+          >
+            Posts
+          </NavLink>
+          {/* <NavLink
+            to="/useReducer"
             className={({ isActive }) =>
               isActive ? "link-active" : "link-name"
             }
           >
             useCallback
-          </NavLink>
+          </NavLink> */}
         </div>
         <div className="nav-logout">
           <div className="cloud-icon" onClick={toggleTheme}>
